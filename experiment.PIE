@@ -1,0 +1,16 @@
+//
+Osc2.ListenPort = 6350
+Osc2.listening = true
+
+debug =  Osc2.sides
+ppjoy1.Analog0 = Osc2.sides
+ppjoy1.Analog1 = Osc2.forward
+ppjoy1.Analog2 = Osc2.updown
+
+
+debug = maprange(Osc2.sides, -1 , 1 ,  -0.000013 ,0.00187)
+
+//key.O = Osc2.up
+//key.Ctrl = Osc2.down
+
+
